@@ -1,0 +1,54 @@
+#root {
+	--nameTextColor: white;
+	--textColor: rgb(209, 202, 202);
+	--backgroundColor: #01122a;
+	--hoverBackgroundColor: #022a6a;
+	--hoverColor: rgb(182, 171, 171);
+	--buttonHoverColor: rgb(8, 8, 154);
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;	 
+	list-style: none;	
+	background: var(--backgroundColor);
+    font-weight: bold;
+	height: 8vh;
+	width: 100vw;
+}
+
+.logo {
+	background-color: var(--backgroundColor);
+    height: 40px; 
+    margin-top: 15px;
+	color: var(--nameTextColor);
+	line-height: 35px;
+	font-size: 1.7rem;
+	padding: 0 20px;
+	font-weight: bold;
+}
+
+.navItem {
+	background-color: none;
+    margin-top: -5%;
+	display: inline-block; 
+}
+
+a {
+	margin: 30px;
+	background-color: var(--backgroundColor);
+	font-size: 1.2rem;
+	text-decoration: none;
+	line-height: 45px;
+	color: var(--textColor);
+}
+
+@media screen and (max-width: 810px) {
+    .navItem {
+        display: none;
+    }
+}
+
+/*TODO: Make a popout nav bar*/

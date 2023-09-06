@@ -1,0 +1,22 @@
+.aboutMe {
+    display: flex;
+    justify-content: space-between;
+	margin: 0%;
+    margin-left: 25%;
+	margin-top: 12%;
+	color: rgb(212, 207, 207);
+}
+
+.aboutMe p {
+	font-size: 160%;
+    margin-left: 60px;
+    margin-right: 10px;
+    margin-top: 6%;
+    margin-right: -10%;
+}
+
+.avatar {
+    border-radius: 5%;
+	width: 40vw;
+    height: 50vh;
+}
